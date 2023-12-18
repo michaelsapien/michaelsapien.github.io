@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, yellow, black);
+}
+
+.message-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgb(22, 21, 21), black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+
+.main-message {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.invoice-message {
+    margin-top: 20px;
+    font-size: 0.8em; /* Make the font smaller */
+    font-weight: 300; /* Make the font thinner */
+}
+
+.invoice-message a {
+    color: lightblue; /* Adjust for better visibility on dark background */
+    text-decoration: none;
+}
+
+.invoice-message a:hover {
+    text-decoration: underline;
+}
