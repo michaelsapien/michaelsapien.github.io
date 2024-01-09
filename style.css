@@ -5,8 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, yellow, black);
+    background: linear-gradient(to right, #2C2C2C, #4E4E4E, #2C2C2C); /* Gradient from #5C5C5C to a slightly darker shade and back */
 }
+
 
 .message-box {
     padding: 20px;
